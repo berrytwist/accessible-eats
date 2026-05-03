@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accessible Eats</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav {
+  background: #222;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #ff6b6b;
+  border: none;
+  padding: 12px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Accessible Eats</h1>
+<p>Affordable Meals. Real Impact.</p>
+</header>
+
+<nav>
+<a href="#menu">Menu</a>
+<a href="#ebook">eBook</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+<h2>Eat Well Without Overspending</h2>
+<p>Helping everyday people access affordable meals.</p>
+</div>
+
+<div class="container">
+
+<h2 id="menu">Our Menu</h2>
+
+<div class="card">Budget Burger - R25</div>
+<div class="card">Chicken Wrap - R30</div>
+<div class="card">Veggie Plate - R20</div>
+
+<h2 id="ebook">Free eBook</h2>
+
+<div class="card">
+<p>Download our guide to eating well on a budget.</p>
+
+<a href="Accessible_Eats_eBook.pdf" download>
+<button>Download eBook</button>
+</a>
+
+</div>
+
+<h2 id="contact">Contact</h2>
+
+<div class="card">
+<p>Phone: 071 234 5678</p>
+<p>Location: Johannesburg</p>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Accessible Eats</p>
+</footer>
+
+</body>
+</html>
